@@ -1,0 +1,21 @@
+{
+  "name": "gap-front-skeleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gaptree/gap-front-skeleton",
+  "author": "zhanjh <zhanjh@126.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "jest": "^22.4.3",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "scripts": {
+    "test": "npm run jest && npm run eslint",
+    "jest": "jest",
+    "eslint": "eslint ."
+  }
+}
